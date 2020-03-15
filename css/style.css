@@ -1,0 +1,58 @@
+/* 全体 */
+* {
+  box-sizing: border-box;
+}
+
+/* この下から記述 */
+
+.header {
+  font-size: 24px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+#startimg {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#match {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#select ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#select li {
+  cursor: pointer;
+}
+
+#start {
+  background: blue;
+  width: 100px;
+  padding: 5px 10px;
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#restart {
+  background: blue;
+  width: 100px;
+  padding: 5px 10px;
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
